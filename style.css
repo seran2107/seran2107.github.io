@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+header{
+    background-color: rgb(147, 187, 247);
+    background: linear-gradient(to right,#dfbd69,#906136);
+    justify-content: space-between;
+}
+nav{
+   
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: bold;
+    display: flex;
+    
+}
+.menu a{
+    margin: auto 10px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: blue;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+.hero{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero img{
+    width: 100%;
+}
+main{
+    padding: 30px 40px;
+    background: linear-gradient(#A87B12,#f3dbcf);
+    text-align: center;
+    
+}
+main .card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.card-item{
+    background: linear-gradient(to right,#b6b4c2);
+   display: grid;
+    grid-template-rows: 300px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    
+}
+.card-item p{
+    padding-bottom: 20px;
+}
+.box    {
+    display: grid;
+    grid-template-columns: 50% 50%;
+   gap: 10px;
+   
+}
+.item{
+    background: linear-gradient(#f3dbcf,#F4CD78FA);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+section{
+    background: linear-gradient(to right,#f3dbcf,#f3dbcf);
+    padding: 20px;
+}
+.from > div{
+    padding: 20px;
+    font-size: 30px;
+}
+.from{
+    grid-template-columns: repeat(14,auto) ;
+    display: grid;
+}
+.nama-lengkap {
+    grid-column: 1/8;
+}
+.nama-lengkap input{
+    width: 100%;
+}
+.email{
+    grid-column: 8/15;
+}
+.email input{
+    width: 100%;
+}
+.alamat-tinggal{
+    grid-column: 1/9;
+}
+.alamat-tinggal input{
+    width: 100%;
+}
+.no-hp{
+    grid-column: 9/15;
+}
+.no-hp input{
+    width: 100%;
+}
+.kota{
+    grid-column: 1/5;
+}
+.kota input{
+    width: 100%;
+}
+.provinsi{
+    grid-column: 5/10;
+}
+.provinsi input{
+    width: 100%;
+}
+.kodepos{
+    grid-column: 10/15;
+}
+.kodepos input{
+    width: 100%;
+}
+.program-studi{
+    grid-column: 1/5;
+}
+.program-studi select{
+    width: 100%;
+}
+footer{
+    background-color: antiquewhite;
+}
+.tombol submit{
+  width: 100%;
+}
+.btn{
+  width: 100%;
+}
